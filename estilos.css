@@ -8,15 +8,38 @@ html{
   font-size: 62.5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.container-s01{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+  margin: 2rem 2rem;
+  gap: 2rem;
 
+}
 .conteudo-s01{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
-
+  background-color: darkkhaki;
+  width: 50%;
+  height: 100%;
+  color:blueviolet;
 }
+
+
+.logo{
+  background-color: aliceblue;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+} 
+
 .titulo-principal {
   display: flex;
   justify-content: center;
