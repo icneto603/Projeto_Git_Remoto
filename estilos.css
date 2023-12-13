@@ -1,13 +1,41 @@
-h1 {
-  color: red;
-  background-color: aqua;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteudo-s01{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
+
+}
+.titulo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  background-color: whitesmoke;
+  height: 10vh;
+  margin: 2rem; 
 }
 
 h3{
-  color: blue;
+  color: whitesmoke;
+  margin-top: 2rem;
+
 }
 
 body{
-  background-color: burlywood;
+  background-color: darkred
 }
+
+
